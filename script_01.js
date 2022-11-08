@@ -23,7 +23,3 @@
 // console.log(firstName + " " + familyName);
 
 
-let familyName = "Mütze"; // Deklaration + Wertzuweisung
-console.log(familyName); // Ausgabe
-console.log(firstName + " " + familyName);
-
