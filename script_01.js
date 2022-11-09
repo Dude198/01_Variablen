@@ -41,8 +41,29 @@
 
 /***** 03a Konstanten *******/
 
-const test = "Hi"; // Variable mit KONSTANTEM Inhalt
-// test = "Hallo"; // KEINE neue ZUweisung zur Laufzeit möglich! --> Fehler
-console.log("Inhalt: " + test); // Ausgabe
+// const test = "Hi"; // Variable mit KONSTANTEM Inhalt
+// // test = "Hallo"; // KEINE neue ZUweisung zur Laufzeit möglich! --> Fehler
+// console.log("Inhalt: " + test); // Ausgabe
+
+/***** 04 Beispiel *******/
+
+// Deklaration
+let ageJohn, ageMark;
+let birthYearJohn, birthYearMark;
+
+// Wertzuweisung
+ageJohn = 25;
+ageMark = 30;
+
+let year = 2022;
+
+// Berechnung
+birthYearJohn = year - ageJohn;
+birthYearMark = year - ageMark;
+
+// Ausgabe
+console.log("birthYearJohn: " + birthYearJohn);
+console.log("birthYearMark: " + birthYearMark);
+
 
 
