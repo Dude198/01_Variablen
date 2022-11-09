@@ -55,7 +55,8 @@ let birthYearJohn, birthYearMark;
 ageJohn = 25;
 ageMark = 30;
 
-let year = 2022;
+let date = new Date();
+let year = date.getFullYear();
 
 // Berechnung
 birthYearJohn = year - ageJohn;
