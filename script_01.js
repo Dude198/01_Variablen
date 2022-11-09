@@ -42,7 +42,7 @@
 /***** 03a Konstanten *******/
 
 const test = "Hi"; // Variable mit KONSTANTEM Inhalt
-// test = "Hallo"; // KEINE neue ZUweisung zur Laufzeit möglich
+// test = "Hallo"; // KEINE neue ZUweisung zur Laufzeit möglich! --> Fehler
 console.log("Inhalt: " + test); // Ausgabe
 
 
