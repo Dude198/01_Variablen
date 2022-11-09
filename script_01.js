@@ -22,4 +22,9 @@
 // console.log(familyName); // Ausgabe
 // console.log(firstName + " " + familyName);
 
+/***** 03 Deklaration + Wertzuweisung II *******/
 
+let firstName, familyName;
+firstName = prompt("Bitte Vornamen eingeben:");
+familyName = prompt("Bitte Namen eingeben:");
+console.log(firstName + " " + familyName);
